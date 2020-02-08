@@ -1,0 +1,34 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  body {
+    
+    overflow: hidden;
+    background-image: url("http://www.nkunited.de/ExternalImages/jsfiddle/wallPattern.png");
+    background-repeat: repeat;
+  }
+  
+  .borderimg {
+    
+    border: 55px solid transparent;
+    padding: 0px;
+    -webkit-border-image: url(http://www.nkunited.de/ExternalImages/jsfiddle/ImageFrame.png) 37 round;
+    -o-border-image: url(http://www.nkunited.de/ExternalImages/jsfiddle/ImageFrame.png) 37 round;
+    border-image: url(http://www.nkunited.de/ExternalImages/jsfiddle/ImageFrame.png) 37 round;
+    box-shadow: 0 0 55px grey;
+  }
+  
+  #container {
+      width: 500px;
+    height: 500px;
+      background-color: #fff;
+      position: absolute;
+    left: 0; 
+    right: 0;
+    top: 0; 
+    bottom: 0;
+      margin: auto;
+    text-align: center;
+  }
